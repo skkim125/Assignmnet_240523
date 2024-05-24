@@ -36,11 +36,9 @@ class KakaoSettingTableViewController: UITableViewController {
             return allSettings.count
         } else if section == 1 {
             return personalSettings.count
-        } else if section == 2 {
+        } else {
             return etcSettings.count
         }
-        
-        return 0
     }
     
     // 셀 높이
