@@ -17,6 +17,7 @@
 		043D17252BFF31500020E3A9 /* KakaoSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D17242BFF31500020E3A9 /* KakaoSettingTableViewController.swift */; };
 		043D17272BFF3FCE0020E3A9 /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043D17262BFF3FCE0020E3A9 /* Shopping.storyboard */; };
 		043D17292BFF3FF50020E3A9 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D17282BFF3FF50020E3A9 /* ShoppingTableViewController.swift */; };
+		04983F842C007D8A0014CD63 /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04983F832C007D8A0014CD63 /* ShoppingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		043D17242BFF31500020E3A9 /* KakaoSettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSettingTableViewController.swift; sourceTree = "<group>"; };
 		043D17262BFF3FCE0020E3A9 /* Shopping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shopping.storyboard; sourceTree = "<group>"; };
 		043D17282BFF3FF50020E3A9 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
+		04983F832C007D8A0014CD63 /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				043D17222BFF31400020E3A9 /* KakaoSetting.storyboard */,
 				043D17242BFF31500020E3A9 /* KakaoSettingTableViewController.swift */,
 				043D17262BFF3FCE0020E3A9 /* Shopping.storyboard */,
+				04983F832C007D8A0014CD63 /* ShoppingTableViewCell.swift */,
 				043D17282BFF3FF50020E3A9 /* ShoppingTableViewController.swift */,
 				043D17172BFF252D0020E3A9 /* Assets.xcassets */,
 				043D17192BFF252D0020E3A9 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043D17252BFF31500020E3A9 /* KakaoSettingTableViewController.swift in Sources */,
+				04983F842C007D8A0014CD63 /* ShoppingTableViewCell.swift in Sources */,
 				043D17132BFF252C0020E3A9 /* ViewController.swift in Sources */,
 				043D170F2BFF252C0020E3A9 /* AppDelegate.swift in Sources */,
 				043D17292BFF3FF50020E3A9 /* ShoppingTableViewController.swift in Sources */,
