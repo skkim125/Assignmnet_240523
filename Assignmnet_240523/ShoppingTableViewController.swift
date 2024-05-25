@@ -82,7 +82,9 @@ class ShoppingTableViewController: UITableViewController {
     @objc
     func addProduct() {
         let product = textField.text
-        guard let p = product, p.count >= 2 else {
+        
+        // p.trimmingCharacters(in: .whitespaces): String의 공백을 삭제하여 반환
+        guard let p = product, !p.trimmingCharacters(in: .whitespaces).isEmpty else {
             textField.text = ""
             textField.placeholder = "한글자 이상 입력하세요"
             
